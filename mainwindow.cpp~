@@ -40,7 +40,7 @@ MainWindow::MainWindow(QWidget *parent) :
     db.setHostName("localhost");
     db.setDatabaseName("microloans");
     db.setUserName("root");
-    db.setPassword("yourpassword");
+    db.setPassword("SaSSanidV@riabl3");
     if(db.open())
         ui->label->setText("Connected");
     else
